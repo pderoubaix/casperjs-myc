@@ -15,7 +15,7 @@ casper.on('page.error', function(message, trace) {
 });
 
 
-casper.test.begin('testing home epg atg', 27 ,function suite(test) {
+casper.test.begin('testing home epg atg', 3 ,function suite(test) {
 
     // testing home
     casper.start("http://www.mycanal.fr/", function() {
