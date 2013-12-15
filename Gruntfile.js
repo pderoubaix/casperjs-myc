@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
-
+      clean: ["screenshoots"],
     casperjs: {
           options: {
               async: {
@@ -16,8 +16,9 @@ module.exports = function(grunt) {
   });
 
 
-  grunt.loadNpmTasks('grunt-casperjs');
-
+grunt.loadNpmTasks('grunt-casperjs');
+grunt.loadNpmTasks('grunt-contrib-clean');
+grunt.registerTask('casper', ['clean', 'casperjs']);
 
 
 
