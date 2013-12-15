@@ -3,7 +3,7 @@
 *  [Casperjs](http://docs.casperjs.org/en/latest/installation.html#prerequisites)
 *  [Grunt](http://gruntjs.com/getting-started)
 *  [Grunt-casper](https://github.com/ronaldlokers/grunt-casperjs)
-requires Grunt
+
 
 ```shell
     npm install -g casperjs
