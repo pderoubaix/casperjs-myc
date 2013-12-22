@@ -1,9 +1,11 @@
-/*global module:false*/
+/**
+ * @author : patrick.deroubaix@gmail.com
+ */
 module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
-      clean: ["screenshoots"],
+      clean: ["screenshots"],
     casperjs: {
           options: {
               async: {

@@ -1,6 +1,7 @@
+/**
+ * @author : patrick.deroubaix@gmail.com
+ */
 casper.start();
-
-
 
 function getCookie() {
     var theCookies = document.cookie.split(';');
@@ -10,6 +11,8 @@ function getCookie() {
     }
     return aString;
 };
+
+
 
 var screenNumber = 0;
 function screenshot(imgName) {
